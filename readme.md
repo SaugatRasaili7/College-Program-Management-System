@@ -33,6 +33,6 @@ Contributed to basic input/output logic in controllers
 
 Worked on ReportService and minor UI message improvements
 
-Assisted in testing and verifying event and participant registration modules
+Assisted in testing and verifying event and participant registration
 
 Percentage of Work: ~20%
