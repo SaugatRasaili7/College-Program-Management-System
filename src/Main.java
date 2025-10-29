@@ -1,3 +1,4 @@
+package src;
 import java.util.Scanner;
 
 public class Main {
@@ -17,7 +18,7 @@ public class Main {
             System.out.println("8. Exit");
 
             System.out.print("Enter choice: ");
-            
+
 
 
    
