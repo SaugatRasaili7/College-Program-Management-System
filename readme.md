@@ -1,4 +1,5 @@
 📄 Contributors and Their Roles
+
 👨‍💻 Saugat Rasaili (Team Leader & Main Developer)
 
 Major Contributions:
@@ -13,9 +14,9 @@ dao (EventDAO, ParticipantDAO, ResultDAO)
 
 service (EventService, ParticipantService, ResultService)
 
-Built controllers (EventController, ResultController, ParticipantController)
+ controllers (EventController, ResultController, ParticipantController)
 
-Created main application file (Main.java) and system menu
+Created main file (Main.java)
 
 
 Wrote the README and handled documentation
@@ -32,6 +33,6 @@ Contributed to basic input/output logic in controllers
 
 Worked on ReportService and minor UI message improvements
 
-Assisted in testing and verifying event and participant registration modules
+Assisted in testing and verifying event and participant registration
 
 Percentage of Work: ~20%
