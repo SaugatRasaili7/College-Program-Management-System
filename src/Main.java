@@ -25,13 +25,27 @@ public class Main {
             System.out.println("Event " + eventName + " added successfully!");
 
         }
+
     else if(num==2){
-          System.out.println("2. Add Participant");
+          System.out.println("2. Register Participant");
             System.out.print("Please enter the Participant's name: ");
             String pname = sc.nextLine();
             System.out.println("Participant" + pname + " added successfully!");
 
     }
+
+
+      else if(num==3){
+          System.out.println("3. Schedule Event");
+            System.out.print("Which Event do you want to schedule: ");
+            String scheduleEvent = sc.nextLine();
+        
+
+    }
+
+
+
+
         sc.close();
     }
 }
