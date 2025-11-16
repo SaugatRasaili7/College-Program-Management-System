@@ -44,6 +44,43 @@ public class Main {
     }
 
 
+    
+    else if(num==4){
+          System.out.println("4. View Event Participants");
+          
+
+    }
+
+
+      
+    else if(num==5){
+          System.out.println("5. Manage Results");
+          
+
+    }
+
+
+    
+    else if(num==6){
+          System.out.println("6. View Scoreboard");
+          
+
+    }
+
+   
+     else if(num==7){
+          System.out.println("7. Generate Report");
+          
+
+    }
+
+
+    
+     else if(num==8){
+          System.out.println("8. Exit");
+          
+
+    }
 
 
         sc.close();
