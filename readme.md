@@ -1,3 +1,22 @@
+PROJECT NAME : College Program Management System
+
+MEMBERS:
+
+1.Saugat Rasaili
+2.Nabin B.k
+
+ *Features of College Program Management System
+
+1. Add Events – create and manage events with date, time, venue.
+2. Register Participants – enroll students in events.
+3. Schedule Events – assign timings for each event.
+4. Event-wise List – view participants of a specific event.
+5. Result Management – store winners (1st, 2nd, 3rd).
+6. Scoreboard – track points and generate rankings.
+7. Search & Filter – find participants or events quickly.
+8. Report Generation – print event summary with results.
+
+
 📄 Contributors and Their Roles
 
 👨‍💻 Saugat Rasaili (Team Leader & Main Developer)
