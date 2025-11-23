@@ -1,4 +1,4 @@
-package srcc.test.java.com.example.college;
+package src;
 
 public class ParticipantServiceTest {
     
