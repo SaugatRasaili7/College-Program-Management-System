@@ -1,8 +1,11 @@
+
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
+        //FEATURES SHOWN IN ORDER :
 
         System.out.println("\n==== College Program Management System ====");
         System.out.println("1. Add Event");
@@ -18,71 +21,89 @@ public class Main {
         int num = sc.nextInt();
         sc.nextLine(); 
 
-        if (num == 1) {
-            System.out.println("1. Add Event");
-            System.out.print("Please enter the event name: ");
-            String eventName = sc.nextLine();
-            System.out.println("Event " + eventName + " added successfully!");
+         switch (num) {
+                case 1 -> addEvent();
 
-        }
+                case 2 -> addParticipant();
 
-    else if(num==2){
-          System.out.println("2. Register Participant");
-            System.out.print("Please enter the Participant's name: ");
-            String pname = sc.nextLine();
-            System.out.println("Participant" + pname + " added successfully!");
+                case 3 -> ScheduleEvent();
 
-    }
+                case 4 -> eventParticipants();
 
+                case 5 -> manageResult();
 
-      else if(num==3){
-          System.out.println("3. Schedule Event");
-            System.out.print("Which Event do you want to schedule: ");
-            String scheduleEvent = sc.nextLine();
-        
+                case 6 -> viewScoreboard();
 
-    }
+                case 7 -> generateReport();
 
+                case 8 -> {
+                    System.out.println("Exiting System. Goodbye!");
+                    return;
+                }
 
-    
-    else if(num==4){
-          System.out.println("4. View Event Participants");
-          
-
-    }
-
-
-      
-    else if(num==5){
-          System.out.println("5. Manage Results");
-          
-
-    }
-
-
-    
-    else if(num==6){
-          System.out.println("6. View Scoreboard");
-          
-
-    }
-
-   
-     else if(num==7){
-          System.out.println("7. Generate Report");
-          
-
-    }
-
-
-    
-     else if(num==8){
-          System.out.println("8. Exit");
-          
-
-    }
-
-
-        sc.close();
+                default -> System.out.println("Invalid choice! Try again.");
+            }
     }
 }
+
+
+        // FEATURE 1: ADD EVENT
+
+
+       static void addEvent() {
+        System.out.print("Enter Event Name: ");
+        String name = sc.nextLine();
+        System.out.print("Enter Venue: ");
+        String venue = sc.nextLine();
+        System.out.print("Enter Date & Time: ");
+        String dateTime = sc.nextLine();
+
+        System.out.println("Event Added Successfully!");
+    }
+
+     // FEATURE 2: REGISTER PARTICIPANT
+
+    static void addParticipant(){
+        System.out.print("Enter Name: ");
+        String name = sc.nextLine();
+        System.out.print("Enter Department: ");
+        String dept = sc.nextLine();
+
+        System.out.println("Participant Registered!");
+    }
+
+       // FEATURE 3: SCHEDULE EVENTS
+
+    static void  ScheduleEvent(){
+
+
+    }
+  
+    
+       // FEATURE 4: VIEW EVENT PARTICIPANTS
+
+    static void eventParticipants(){
+    
+    }
+
+
+       // FEATURE 5: MANAGE RESULTS
+     
+    static void manageResult(){
+
+    }
+
+
+    // FEATURE 6: VIEW SCOREBOARD
+
+    static void viewScoreboard(){
+
+    }
+
+
+
+   // FEATURE 7: GENERATE REPORT
+
+    static void generateReport(){
+
+    }
