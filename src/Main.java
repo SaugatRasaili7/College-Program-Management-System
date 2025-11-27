@@ -83,6 +83,7 @@ public class Main {
        // FEATURE 4: VIEW EVENT PARTICIPANTS
 
     static void eventParticipants(){
+          System.out.println("Participants in Event");
     
     }
 
@@ -90,7 +91,7 @@ public class Main {
        // FEATURE 5: MANAGE RESULTS
      
     static void manageResult(){
-
+     
     }
 
 
