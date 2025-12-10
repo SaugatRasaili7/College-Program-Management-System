@@ -1,11 +1,7 @@
-package src.controller;
-
-import src.service.ParticipantService;
-
+package controller;
 import java.util.Scanner;
 
 public class ParticipantController {
-    ParticipantService participantService = new ParticipantService();
      Scanner sc = new Scanner(System.in);
 
     public void registerParticipant() {
@@ -20,7 +16,8 @@ public class ParticipantController {
         System.out.print("Enter Department: ");
         String dept = sc.nextLine();
 
-
+        System.out.println("Participant ID: " + id + ", Name: " + name + ", Department: " + dept);
         System.out.println("Participant registered successfully!");
+        sc.close();
     }
 }

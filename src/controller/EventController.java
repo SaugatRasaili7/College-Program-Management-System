@@ -1,4 +1,4 @@
-package src.controller;
+package controller;
 import java.time.LocalDateTime;
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class EventController {
     public void addEvent() {
 
         System.out.print("Enter Event ID: ");
-        int id = sc.nextInt();
+       int id = sc.nextInt();
 
         sc.nextLine();
 
@@ -23,7 +23,7 @@ public class EventController {
         String dateTimeStr = sc.nextLine();
 
         LocalDateTime dt = LocalDateTime.parse(dateTimeStr);
-        System.out.println("Event added successfully!");
+        System.out.println("Event added successfully! Event ID: " + id + ", Name: " + name + ", Venue: " + venue + ", DateTime: " + dt);
     }
 
     public void scheduleEvent() {

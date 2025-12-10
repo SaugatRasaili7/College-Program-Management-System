@@ -1,8 +1,6 @@
-package src.main;
-
-import src.controller.EventController;
-import src.controller.ParticipantController;
-import src.controller.ResultController;
+import controller.EventController;
+import controller.ParticipantController;
+import controller.ResultController;
 
 import java.util.Scanner;
 
@@ -12,7 +10,7 @@ public class Main {
         EventController eventController = new EventController();
         ParticipantController participantController = new ParticipantController();
         ResultController resultController = new ResultController();
-
+       
         while (true) {
             System.out.println("\n==== College Program Management System ====");
             System.out.println("1. Add Event");
@@ -42,6 +40,8 @@ public class Main {
                 }
                 default -> System.out.println("Invalid choice! Try again.");
             }
+            sc.close();
         }
+   
     }
 }
