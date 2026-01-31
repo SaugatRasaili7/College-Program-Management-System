@@ -1,11 +1,13 @@
 package controller;
+import service.EventService;
 import java.time.LocalDateTime;
 import java.util.Scanner;
 
 public class EventController {
-
+    
+   EventService es = new EventService();
      Scanner sc = new Scanner(System.in);
-
+   
     public void addEvent() {
 
         System.out.print("Enter Event ID: ");
@@ -16,22 +18,28 @@ public class EventController {
         System.out.print("Enter Event Name: ");
         String name = sc.nextLine();
 
+        System.out.print("Enter DateTime (yyyy-MM-ddTHH:mm): ");
+        String date = sc.nextLine();
+
         System.out.print("Enter Venue: ");
         String venue = sc.nextLine();
-
-        System.out.print("Enter DateTime (yyyy-MM-ddTHH:mm): ");
-        String dateTimeStr = sc.nextLine();
-
-        LocalDateTime dt = LocalDateTime.parse(dateTimeStr);
-        System.out.println("Event added successfully! Event ID: " + id + ", Name: " + name + ", Venue: " + venue + ", DateTime: " + dt);
-    }
+        es.addEvent(name, date, venue);
+       
+       }
 
     public void scheduleEvent() {
         System.out.println("Available Events:");
+        es.showAllEvents();
+
     
+
     }
 
     public void viewParticipantsByEvent() {
        
     }
 }
+
+
+
+  

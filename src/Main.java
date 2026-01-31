@@ -1,6 +1,7 @@
 import controller.EventController;
 import controller.ParticipantController;
 import controller.ResultController;
+import service.EventService;
 
 import java.util.Scanner;
 
@@ -10,8 +11,10 @@ public class Main {
         EventController eventController = new EventController();
         ParticipantController participantController = new ParticipantController();
         ResultController resultController = new ResultController();
-       
-        while (true) {
+         EventService es = new EventService();
+         boolean value = true;
+
+        while (value) {
             System.out.println("\n==== College Program Management System ====");
             System.out.println("1. Add Event");
             System.out.println("2. Register Participant");
@@ -25,7 +28,7 @@ public class Main {
 
             int choice = sc.nextInt();
             sc.nextLine();
-
+        
             switch (choice) {
                 case 1 -> eventController.addEvent();
                 case 2 -> participantController.registerParticipant();
@@ -36,11 +39,13 @@ public class Main {
                 case 7 -> resultController.generateReport();
                 case 8 -> {
                     System.out.println("Exiting System. Goodbye!");
+                    value = false;
+
                     return;
                 }
                 default -> System.out.println("Invalid choice! Try again.");
             }
-            sc.close();
+         
         }
    
     }
