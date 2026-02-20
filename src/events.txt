@@ -1,1 +1,2 @@
 football,2082-04-21,suinkhet
+table tennis,2083-04-21,gairi

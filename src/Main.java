@@ -1,7 +1,7 @@
 import controller.EventController;
 import controller.ParticipantController;
 import controller.ResultController;
-import service.EventService;
+import dao.EventDAO;
 
 import java.util.Scanner;
 
@@ -11,7 +11,8 @@ public class Main {
         EventController eventController = new EventController();
         ParticipantController participantController = new ParticipantController();
         ResultController resultController = new ResultController();
-         EventService es = new EventService();
+        EventDAO ED = new EventDAO();
+
          boolean value = true;
 
         while (value) {

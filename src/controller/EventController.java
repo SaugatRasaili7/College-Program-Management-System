@@ -1,11 +1,11 @@
 package controller;
-import service.EventService;
+import dao.EventDAO;
 import java.time.LocalDateTime;
 import java.util.Scanner;
 
 public class EventController {
     
-   EventService es = new EventService();
+   EventDAO ED = new EventDAO();
      Scanner sc = new Scanner(System.in);
    
     public void addEvent() {
@@ -23,13 +23,13 @@ public class EventController {
 
         System.out.print("Enter Venue: ");
         String venue = sc.nextLine();
-        es.addEvent(name, date, venue);
+        ED.addEvent(name, date, venue);
        
        }
 
     public void scheduleEvent() {
         System.out.println("Available Events:");
-        es.showAllEvents();
+        ED.showAllEvents();
 
     
 
