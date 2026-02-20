@@ -1,20 +1,13 @@
 package controller;
 import dao.EventDAO;
-import java.time.LocalDateTime;
 import java.util.Scanner;
 
 public class EventController {
     
    EventDAO ED = new EventDAO();
-     Scanner sc = new Scanner(System.in);
+   Scanner sc = new Scanner(System.in);
    
     public void addEvent() {
-
-        System.out.print("Enter Event ID: ");
-       int id = sc.nextInt();
-
-        sc.nextLine();
-
         System.out.print("Enter Event Name: ");
         String name = sc.nextLine();
 
@@ -23,23 +16,28 @@ public class EventController {
 
         System.out.print("Enter Venue: ");
         String venue = sc.nextLine();
+        
         ED.addEvent(name, date, venue);
-       
-       }
+    }
 
     public void scheduleEvent() {
+        System.out.println("\n===== SCHEDULE EVENT =====");
         System.out.println("Available Events:");
         ED.showAllEvents();
 
-    
+        System.out.print("\nEnter Event Name to schedule: ");
+        String eventName = sc.nextLine();
 
+        System.out.print("Enter new DateTime (yyyy-MM-ddTHH:mm): ");
+        String newDate = sc.nextLine();
+
+        System.out.print("Enter new Venue: ");
+        String newVenue = sc.nextLine();
+
+        ED.updateEvent(eventName, newDate, newVenue);
     }
 
     public void viewParticipantsByEvent() {
        
     }
 }
-
-
-
-  
