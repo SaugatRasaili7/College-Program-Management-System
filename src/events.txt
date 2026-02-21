@@ -2,3 +2,4 @@ football,2082-04-21,suinkhet
 table tennis,2083-04-21,gairi
 Volleyball,2083-04-07,suiket
 Baseball,2083-04-23,hemja
+ICT Quiz,2083-01-02,pokhara
