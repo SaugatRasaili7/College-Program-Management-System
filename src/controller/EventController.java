@@ -2,6 +2,7 @@ package controller;
 import dao.EventDAO;
 import java.util.Scanner;
 
+
 public class EventController {
     
    EventDAO ED = new EventDAO();
@@ -35,6 +36,11 @@ public class EventController {
         String newVenue = sc.nextLine();
 
         ED.updateEvent(eventName, newDate, newVenue);
+    }
+
+    // ------- VIEW ALL EVENTS --------
+    public void viewAllEvents() {
+        ED.showAllEvents();
     }
 
     public void viewParticipantsByEvent() {

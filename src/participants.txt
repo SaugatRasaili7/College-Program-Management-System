@@ -1,0 +1,4 @@
+101,Saugat Rasaili,Comp.Engineering,table tennis
+102,Nabin Bk,Comp.Engineering,table tennis
+103,Apar Bhandari,B.IT,table tennis
+104,Devilal Adhikari,Comp.Engineering,table tennis

@@ -1,53 +1,97 @@
 import controller.EventController;
 import controller.ParticipantController;
 import controller.ResultController;
-import dao.EventDAO;
-
+import util.Scoreboard;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        EventController eventController = new EventController();
-        ParticipantController participantController = new ParticipantController();
-        ResultController resultController = new ResultController();
-        EventDAO ED = new EventDAO();
+        EventController EC = new EventController();
+        ParticipantController PC = new ParticipantController();
+        ResultController RC = new ResultController();
+        Scoreboard SB = new Scoreboard();
+        boolean show = true;
 
-         boolean value = true;
+        while (show) {
 
-        while (value) {
-            System.out.println("\n==== College Program Management System ====");
+            System.out.println("║    ----- WELCOME TO COLLEGE PROGRAM MANAGEMENT SYSTEM -----     ║");
+            
+            System.out.println("\n--- EVENT MANAGEMENT ---");
             System.out.println("1. Add Event");
-            System.out.println("2. Register Participant");
-            System.out.println("3. Schedule Event");
-            System.out.println("4. View Event Participants");
-            System.out.println("5. Manage Results");
-            System.out.println("6. View Scoreboard");
-            System.out.println("7. Generate Report");
-            System.out.println("8. Exit");
-            System.out.print("Enter choice: ");
+            System.out.println("2. Schedule Event");
+            System.out.println("3. View All Events");
+            
+            System.out.println("\n--- PARTICIPANT MANAGEMENT ---");
+            System.out.println("4. Register Participant to Event");
+            System.out.println("5. View All Participants");
+            System.out.println("6. View Participants by Event");
+
+            
+            System.out.println("\n--- RESULT MANAGEMENT ---");
+            System.out.println("7. Add Event Result");
+            System.out.println("8. View All Results");
+            System.out.println("9. View Result by Event");
+            System.out.println("10. Update Result");
+         
+            
+            System.out.println("\n--- SCOREBOARD ---");
+            System.out.println("11. View Overall Scoreboard");
+            System.out.println("12. View Event Scoreboard");
+            
+            
+            System.out.println("\n13. Exit");
+            System.out.print("\nEnter your choice: ");
 
             int choice = sc.nextInt();
             sc.nextLine();
-        
-            switch (choice) {
-                case 1 -> eventController.addEvent();
-                case 2 -> participantController.registerParticipant();
-                case 3 -> eventController.scheduleEvent();
-                case 4 -> eventController.viewParticipantsByEvent();
-                case 5 -> resultController.manageResults();
-                case 6 -> resultController.viewScoreboard();
-                case 7 -> resultController.generateReport();
-                case 8 -> {
-                    System.out.println("Exiting System. Goodbye!");
-                    value = false;
 
-                    return;
-                }
-                default -> System.out.println("Invalid choice! Try again.");
+            switch (choice) {
+                case 1:
+                    EC.addEvent();
+                    break;
+                case 2:
+                    EC.scheduleEvent();
+                    break;
+                case 3:
+                      EC.viewAllEvents();
+                    
+                    break;
+                case 4:
+                    PC.registerParticipant();
+                    break;
+                case 5:
+                    PC.viewAllParticipants();
+                    break;
+                case 6:
+                    PC.viewParticipantsByEvent();
+                    break;
+                
+                case 7:
+                    RC.addResult();
+                    break;
+                case 8:
+                    RC.viewAllResults();
+                    break;
+                case 9:
+                    RC.viewResultByEvent();
+                    break;
+                case 10:
+                    RC.updateResult();
+                    break;
+              
+                case 11:
+                    SB.displayOverallScoreboard();
+                    break;
+                case 12:
+                    SB.displayEventScoreboard();
+                    break;
+               
+                case 13:
+                    System.out.println("\n Exiting System , Goodbye ........!");
+                    show = false;
+           
             }
-         
         }
-   
     }
 }

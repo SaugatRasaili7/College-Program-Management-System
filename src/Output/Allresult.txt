@@ -1,0 +1,97 @@
+PS E:\College Program Management System> cd src
+PS E:\College Program Management System\src> javac Main.java controller/*.java service/*.java dao/*.java model/*.java
+PS E:\College Program Management System\src> java Main
+║    ----- WELCOME TO COLLEGE PROGRAM MANAGEMENT SYSTEM -----     ║
+
+--- EVENT MANAGEMENT ---
+1. Add Event
+2. Schedule Event
+3. View All Events
+
+--- PARTICIPANT MANAGEMENT ---
+4. Register Participant to Event
+5. View All Participants
+6. View Participants by Event
+
+--- RESULT MANAGEMENT ---
+7. Add Event Result
+8. View All Results
+9. View Result by Event
+10. Update Result
+
+--- SCOREBOARD ---
+11. View Overall Scoreboard
+12. View Event Scoreboard
+
+13. Exit
+
+Enter your choice: 11
+║ ------------ COLLEGE EVENT RESULTS SCOREBOARD -------------- ║
+
+========== ALL EVENT RESULTS ==========
+
+--- Event: table tennis ---
+ 1st Position: Apar Bhandari
+ 2nd Position: Saugat Rasaili
+ 3rd Position: Devilal Adhikari
+║    ----- WELCOME TO COLLEGE PROGRAM MANAGEMENT SYSTEM -----     ║
+
+--- EVENT MANAGEMENT ---
+1. Add Event
+2. Schedule Event
+3. View All Events
+
+--- PARTICIPANT MANAGEMENT ---
+4. Register Participant to Event
+5. View All Participants
+6. View Participants by Event
+
+--- RESULT MANAGEMENT ---
+7. Add Event Result
+8. View All Results
+9. View Result by Event
+10. Update Result
+
+--- SCOREBOARD ---
+11. View Overall Scoreboard
+12. View Event Scoreboard
+
+13. Exit
+
+Enter your choice: 12
+
+Enter Event Name: table tennis
+║ ------------ EVENT SCOREBOARD ------------ ║
+
+========== RESULT FOR: table tennis ==========
+ 1st Position: Apar Bhandari
+ 2nd Position: Saugat Rasaili
+ 3rd Position: Devilal Adhikari
+║    ----- WELCOME TO COLLEGE PROGRAM MANAGEMENT SYSTEM -----     ║
+
+--- EVENT MANAGEMENT ---
+1. Add Event
+2. Schedule Event
+3. View All Events
+
+--- PARTICIPANT MANAGEMENT ---
+4. Register Participant to Event
+5. View All Participants
+6. View Participants by Event
+
+--- RESULT MANAGEMENT ---
+7. Add Event Result
+8. View All Results
+9. View Result by Event
+10. Update Result
+
+--- SCOREBOARD ---
+11. View Overall Scoreboard
+12. View Event Scoreboard
+
+13. Exit
+
+Enter your choice: 13
+
+ Exiting System , Goodbye ........!
+PS E:\College Program Management System\src> 
