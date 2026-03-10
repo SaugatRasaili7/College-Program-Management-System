@@ -1,0 +1,284 @@
+PS E:\College Program Management System> javac -d out (Get-ChildItem -Recurse src/main/java -Filter *.java).FullName
+PS E:\College Program Management System> java -cp out com.example.college.Main
+║    ----- WELCOME TO COLLEGE PROGRAM MANAGEMENT SYSTEM -----     ║
+
+--- EVENT MANAGEMENT ---
+1. Add Event
+2. Schedule Event
+3. View All Events
+
+--- PARTICIPANT MANAGEMENT ---
+4. Register Participant to Event
+5. View All Participants
+6. View Participants by Event
+
+--- RESULT MANAGEMENT ---
+7. Add Event Result
+8. View All Results
+9. View Result by Event
+10. Update Result
+
+--- SCOREBOARD ---
+11. View Overall Scoreboard
+12. View Event Scoreboard
+
+13. Exit
+
+Enter your choice: 4
+
+===== REGISTER PARTICIPANT TO EVENT =====
+
+Available Events:
+
+--- Available Events ---
+1. Event: Essay writing compition | Date: 2082-04-21 | Venue: suikhet
+2. Event: ICT QUIZ | Date: 2082-01-09 | Venue: ambika school
+3. Event: Singing Competition | Date: 2083-07-08 | Venue: Hemja
+4. Event: Table Tennis Competition | Date: 2083-01-20 | Venue: Suikhet Resort
+
+Enter Event Name to register in: Table Tennis Competition
+Enter Participant ID: 1023
+Enter Name: Saugat Rasaili
+Enter Department: Comp.Er
+? Participant added to event successfully!
+
+Participant Details:
+ID: 1023 | Name: Saugat Rasaili | Department: Comp.Er | Event: Table Tennis Competition
+║    ----- WELCOME TO COLLEGE PROGRAM MANAGEMENT SYSTEM -----     ║
+
+--- EVENT MANAGEMENT ---
+1. Add Event
+2. Schedule Event
+3. View All Events
+
+--- PARTICIPANT MANAGEMENT ---
+4. Register Participant to Event
+5. View All Participants
+6. View Participants by Event
+
+--- RESULT MANAGEMENT ---
+7. Add Event Result
+8. View All Results
+9. View Result by Event
+10. Update Result
+
+--- SCOREBOARD ---
+11. View Overall Scoreboard
+12. View Event Scoreboard
+
+13. Exit
+
+Enter your choice: 4
+
+===== REGISTER PARTICIPANT TO EVENT =====
+
+Available Events:
+
+--- Available Events ---
+1. Event: Essay writing compition | Date: 2082-04-21 | Venue: suikhet
+2. Event: ICT QUIZ | Date: 2082-01-09 | Venue: ambika school
+3. Event: Singing Competition | Date: 2083-07-08 | Venue: Hemja
+4. Event: Table Tennis Competition | Date: 2083-01-20 | Venue: Suikhet Resort
+
+Enter Event Name to register in: Table Tennis Competition
+Enter Participant ID: 1024
+Enter Name: Apar Bhandari
+Enter Department: B.IT
+? Participant added to event successfully!
+
+Participant Details:
+ID: 1024 | Name: Apar Bhandari | Department: B.IT | Event: Table Tennis Competition
+║    ----- WELCOME TO COLLEGE PROGRAM MANAGEMENT SYSTEM -----     ║
+
+--- EVENT MANAGEMENT ---
+1. Add Event
+2. Schedule Event
+3. View All Events
+
+--- PARTICIPANT MANAGEMENT ---
+4. Register Participant to Event
+5. View All Participants
+6. View Participants by Event
+
+--- RESULT MANAGEMENT ---
+7. Add Event Result
+8. View All Results
+9. View Result by Event
+10. Update Result
+
+--- SCOREBOARD ---
+11. View Overall Scoreboard
+12. View Event Scoreboard
+
+13. Exit
+
+Enter your choice: 4
+
+===== REGISTER PARTICIPANT TO EVENT =====
+
+Available Events:
+
+--- Available Events ---
+1. Event: Essay writing compition | Date: 2082-04-21 | Venue: suikhet
+2. Event: ICT QUIZ | Date: 2082-01-09 | Venue: ambika school
+3. Event: Singing Competition | Date: 2083-07-08 | Venue: Hemja
+4. Event: Table Tennis Competition | Date: 2083-01-20 | Venue: Suikhet Resort
+
+Enter Event Name to register in: Table Tennis Competition
+Enter Participant ID: 1025
+Enter Name: Sumit Thapa
+Enter Department: ICT
+? Participant added to event successfully!
+
+Participant Details:
+ID: 1025 | Name: Sumit Thapa | Department: ICT | Event: Table Tennis Competition
+║    ----- WELCOME TO COLLEGE PROGRAM MANAGEMENT SYSTEM -----     ║
+
+--- EVENT MANAGEMENT ---
+1. Add Event
+2. Schedule Event
+3. View All Events
+
+--- PARTICIPANT MANAGEMENT ---
+4. Register Participant to Event
+5. View All Participants
+6. View Participants by Event
+
+--- RESULT MANAGEMENT ---
+7. Add Event Result
+8. View All Results
+9. View Result by Event
+10. Update Result
+
+--- SCOREBOARD ---
+11. View Overall Scoreboard
+12. View Event Scoreboard
+
+13. Exit
+
+Enter your choice: 5
+
+--- All Participants ---
+ID: 101 | Name: Saugat Rasaili | Department: Comp.Engineering | Event: Tabble Tennis Competition Single
+ID: 102 | Name: Apar Bhandari | Department: B.IT | Event: Table Tennis Competition
+ID: 1011 | Name: Nabin Bk | Department: B.IT | Event: ICT QUIZ
+ID: 1022 | Name: Devilal Adhikari | Department: B.IT | Event: Table Tennis Competition
+ID: 1023 | Name: Saugat Rasaili | Department: Comp.Er | Event: Table Tennis Competition
+ID: 1024 | Name: Apar Bhandari | Department: B.IT | Event: Table Tennis Competition
+ID: 1025 | Name: Sumit Thapa | Department: ICT | Event: Table Tennis Competition
+║    ----- WELCOME TO COLLEGE PROGRAM MANAGEMENT SYSTEM -----     ║
+
+--- EVENT MANAGEMENT ---
+1. Add Event
+2. Schedule Event
+3. View All Events
+
+--- PARTICIPANT MANAGEMENT ---
+4. Register Participant to Event
+5. View All Participants
+6. View Participants by Event
+
+--- RESULT MANAGEMENT ---
+7. Add Event Result
+8. View All Results
+9. View Result by Event
+10. Update Result
+
+--- SCOREBOARD ---
+11. View Overall Scoreboard
+12. View Event Scoreboard
+
+13. Exit
+
+Enter your choice: 7
+
+===== ADD EVENT RESULT =====
+Available Events:
+
+--- Available Events ---
+1. Event: Essay writing compition | Date: 2082-04-21 | Venue: suikhet
+2. Event: ICT QUIZ | Date: 2082-01-09 | Venue: ambika school
+3. Event: Singing Competition | Date: 2083-07-08 | Venue: Hemja
+4. Event: Table Tennis Competition | Date: 2083-01-20 | Venue: Suikhet Resort
+
+Enter Event Name: Table Tennis Competition
+
+Participants in this event:
+
+--- Participants in: Table Tennis Competition ---
+ID: 1022 | Name: Devilal Adhikari | Department: B.IT
+ID: 1023 | Name: Saugat Rasaili | Department: Comp.Er
+ID: 1024 | Name: Apar Bhandari | Department: B.IT
+ID: 1025 | Name: Sumit Thapa | Department: ICT
+
+Enter 1st Position Winner Name: Apar Bhandari
+Enter 2nd Position Winner Name: Saugat Rasaili
+Enter 3rd Position Winner Name: Sumit Thapa
+? Result saved successfully!
+
+========== RESULT SUMMARY ==========
+Event: Table Tennis Competition
+ 1st Position: Apar Bhandari
+ 2nd Position: Saugat Rasaili
+ 3rd Position: Sumit Thapa
+║    ----- WELCOME TO COLLEGE PROGRAM MANAGEMENT SYSTEM -----     ║
+
+--- EVENT MANAGEMENT ---
+1. Add Event
+2. Schedule Event
+3. View All Events
+
+--- PARTICIPANT MANAGEMENT ---
+4. Register Participant to Event
+5. View All Participants
+6. View Participants by Event
+
+--- RESULT MANAGEMENT ---
+7. Add Event Result
+8. View All Results
+9. View Result by Event
+10. Update Result
+
+--- SCOREBOARD ---
+11. View Overall Scoreboard
+12. View Event Scoreboard
+
+13. Exit
+
+Enter your choice: 9
+
+Enter Event Name: Table Tennis Competition
+
+========== RESULT FOR: Table Tennis Competition ==========
+ 1st Position: Apar Bhandari
+ 2nd Position: Saugat Rasaili
+ 3rd Position: Sumit Thapa
+║    ----- WELCOME TO COLLEGE PROGRAM MANAGEMENT SYSTEM -----     ║
+
+--- EVENT MANAGEMENT ---
+1. Add Event
+2. Schedule Event
+3. View All Events
+
+--- PARTICIPANT MANAGEMENT ---
+4. Register Participant to Event
+5. View All Participants
+6. View Participants by Event
+
+--- RESULT MANAGEMENT ---
+7. Add Event Result
+8. View All Results
+9. View Result by Event
+10. Update Result
+
+--- SCOREBOARD ---
+11. View Overall Scoreboard
+12. View Event Scoreboard
+
+13. Exit
+
+Enter your choice: 13
+
+ Exiting System , Goodbye ........!
+PS E:\College Program Management System>
+

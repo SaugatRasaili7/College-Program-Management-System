@@ -1,7 +1,9 @@
-import controller.EventController;
-import controller.ParticipantController;
-import controller.ResultController;
-import util.Scoreboard;
+package  com.example.college;
+
+import com.example.college.controller.EventController;
+import com.example.college.controller.ParticipantController;
+import com.example.college.controller.ResultController;
+import com.example.college.util.Scoreboard;
 import java.util.Scanner;
 
 public class Main {

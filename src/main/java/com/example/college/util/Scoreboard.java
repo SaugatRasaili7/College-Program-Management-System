@@ -1,6 +1,5 @@
-package util;
-
-import dao.ResultDAO;
+package com.example.college.util;
+import com.example.college.dao.ResultDAO;
 import java.util.Scanner;
 
 public class Scoreboard {

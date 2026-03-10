@@ -1,5 +1,5 @@
-package controller;
-import dao.EventDAO;
+package com.example.college.controller;
+import com.example.college.dao.EventDAO;
 import java.util.Scanner;
 
 

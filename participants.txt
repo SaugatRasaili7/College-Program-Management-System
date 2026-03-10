@@ -1,0 +1,7 @@
+101,Saugat Rasaili,Comp.Engineering,Tabble Tennis Competition Single
+102,Apar Bhandari,B.IT,Table Tennis Competition 
+1011,Nabin Bk,B.IT,ICT QUIZ
+1022,Devilal Adhikari,B.IT,Table Tennis Competition
+1023,Saugat Rasaili,Comp.Er,Table Tennis Competition
+1024,Apar Bhandari,B.IT,Table Tennis Competition
+1025,Sumit Thapa,ICT,Table Tennis Competition

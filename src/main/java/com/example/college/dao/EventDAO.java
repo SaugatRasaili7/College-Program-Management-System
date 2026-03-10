@@ -1,4 +1,4 @@
-package dao;
+package com.example.college.dao;
 import java.io.*;
 import java.time.LocalDateTime;
 import java.util.*;

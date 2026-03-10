@@ -1,6 +1,6 @@
-package controller;
-import dao.ParticipantDAO;
-import dao.EventDAO;
+package com.example.college.controller;
+import com.example.college.dao.ParticipantDAO;
+import com.example.college.dao.EventDAO;
 import java.util.Scanner;
 
 public class ParticipantController {
