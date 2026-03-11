@@ -5,3 +5,4 @@
 1023,Saugat Rasaili,Comp.Er,Table Tennis Competition
 1024,Apar Bhandari,B.IT,Table Tennis Competition
 1025,Sumit Thapa,ICT,Table Tennis Competition
+1022,apar bhandari,B.IT,Coding Competition

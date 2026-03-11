@@ -2,3 +2,4 @@ Essay writing compition,2082-04-21,suikhet
 ICT QUIZ,2082-01-09,ambika school
 Singing Competition,2083-07-08,Hemja,Milanchowk
 Table Tennis Competition,2083-01-20,Suikhet Resort
+Coding Competition,2083-02-08,class11 hall
